@@ -9,18 +9,31 @@ body {
     margin: 0;
     padding: 0;
 }
-.images-yo {
+.pictures {
     height: 500px;
 }
 #section1 {
     height: 100vh;
     width: 100vw;
-    background-color: lightgreen;
+    background-image: url(../images/hand-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myIntro {
+    -webkit-animation-duration: .85s;
+    -webkit-animation-delay: .9s;
 }
 #section2 {
     height: 100vh;
     width: 100vw;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
+    background-image: url(../images/photo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myDesign {
+    -webkit-animation-duration: .85s;
+    -webkit-animation-delay: .9s;
 }
 #section3 {
     height: 100vh;

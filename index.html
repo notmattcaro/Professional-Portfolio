@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import materialize.css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     <link rel="stylesheet" href="./assets/css/fullpage.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -14,32 +16,51 @@
 <body>
 
     <div id="fullpage">
-        <div class="section one" id="section1">
-            <div class="intro">
-                <h1>fullPage.js</h1>
-                <p>Looping Top and Bottom Enabled</p>
-                <img id="ariel" class="is-animated" src="./assets/images/arielBusinessCard2-10.png">
+        <div class="section one animated rotateInDownRight" id="section1">
+
+
+
+            <div id="myIntro" class="intro animated fadeInLeft">
+                <h1>Do you dream and create?</h1>
+                <p>Dare to do it.</p>
+                <img id="bridge-local" class="pictures" src="./assets/images/bridge-local.png">
             </div>
+
+
+
         </div>
-        <div class="section two" id="section2">
-            <div class="intro">
+        <div class="section two animated" id="section2">
+
+
+
+            <div id="myDesign" class="intro animated">
                 <h1>Looping!</h1>
                 <p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
-                <img id="happen" class="is-animated" src="./assets/images/happen-logo-02.png">
+                <img id="happen" class="pictures" src="./assets/images/happen-logo-02.png">
             </div>
+        
+        
+        
         </div>
         <div class="section three" id="section3">
+
+
+
             <div class="intro">
                 <h1>Scroll Down</h1>
                 <p>And it will loop to the first section</p>
-                <img id="shiba" class="is-animated" src="./assets/images/Matt Business Card Final-05.png" alt="">
+                <img id="shiba" class="pictures animated" src="./assets/images/Matt Business Card Final-05.png" alt="">
             </div>
+
+            
         </div>
     </div>
 
     <!-- End of body, entering scripts  -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Materialize JS Framework -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/js/fullpage.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
