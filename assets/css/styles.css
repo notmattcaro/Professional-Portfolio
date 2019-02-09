@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.images-yo {
+    height: 500px;
+}
+#section1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgreen;
+}
+#section2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightslategray;
+}
+#section3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightcoral;
+}
