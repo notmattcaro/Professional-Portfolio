@@ -9,6 +9,12 @@ body {
     margin: 0;
     padding: 0;
 }
+#nav-logo {
+    height: 50px;
+    margin: 4.5px;
+}
+
+
 .pictures {
     height: 500px;
 }

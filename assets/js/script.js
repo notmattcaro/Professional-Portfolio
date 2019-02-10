@@ -1,3 +1,9 @@
+//Navbar Initializer
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+//END: Navbar initializer
+
 var ariel = document.getElementById('ariel');
 var happen = document.getElementById('happen');
 var shiba = document.getElementById('shiba');
