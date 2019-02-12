@@ -10,6 +10,8 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <!-- Import Google Font Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,900" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/fullpage.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Matthew C</title>
@@ -19,59 +21,80 @@
     <nav id="navbar" class="navbar-fixed">
         <div class="nav-wrapper grey darken-4">
             <a class="brand-logo"><img id="nav-logo" src="./assets/images/mattCLogo-01.png" alt="mattsLogo"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons light-green-text text-   accent-2">menu</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="material-icons deep-purple-text text-lighten-3">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="light-green-text text-accent-2" href="!#">About</a></li>
-                <li><a class="light-green-text text-accent-2" href="!#">Design</a></li>
-                <li><a class="light-green-text text-accent-2" href="!#">Portfolio</a></li>
-                <li><a class="light-green-text text-accent-2" href="!#">Contact</a></li>
+                <li><a class="deep-purple-text text-lighten-3" href="index.html#firstPage">About</a></li>
+                <li><a class="deep-purple-text text-lighten-3" href="index.html#secondPage">Portfolio</a></li>
+                <li><a class="deep-purple-text text-lighten-3" href="index.html#thirdPage">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <ul id="mobile-demo" class="sidenav">
         <li><a href="!#">About</a></li>
-        <li><a href="!#">Design</a></li>
         <li><a href="!#">Portfolio</a></li>
         <li><a href="!#">Contact</a></li>
     </ul>
 
     <div id="fullpage">
         <div class="section one animated rotateInDownRight" id="section1">
-
-            <div id="myIntro" class="intro animated fadeInLeft">
-                <h1>Do you dream and create?</h1>
-                <p>Dare to do it.</p>
-                <img id="bridge-local" class="pictures" src="./assets/images/bridge-local.png">
+            <!-- CONTENT FIRST PAGE -->
+            <div class="row">
+                <div id="overall-intro-container" class="col l7">
+                    <div id="welcome-statement-container" class="row">
+                        <div id="intro-hello" class="row col s12 center-align grey-text text-darken-4 animated fadeInLeft">
+                            Hey there
+                        </div>
+                        <div id="my-name" class="row col s12 center-align animated fadeInLeft">
+                            I'm Matthew
+                        </div>
+                        <div id="my-statement" class="row col s12 center-align deep-purple-text text-lighten-3 animated fadeIn">
+                            UX Designer, Developer, Illustrator <br> Photographer, Lego Builder
+                        </div>
+                    </div>
+                </div>
+                <div class="col l5"></div>
             </div>
-
-
-
         </div>
         <div class="section two animated" id="section2">
-
-
-
-            <div id="myDesign" class="intro animated">
-                <h1>Looping!</h1>
-                <p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
-                <img id="happen" class="pictures" src="./assets/images/happen-logo-02.png">
+            <!-- CONTENT SECOND PAGE -->
+            <div id="portfolio-container" class="row animated">
+                <div class="col l1"></div>
+                <div class="col l3">
+                    <div class="row">
+                        <div id="section2-content-up" class="row col s12">
+                            <h2 id="about-me">
+                                About
+                            </h2>
+                            <p id="about-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quibusdam consequatur hic saepe? Distinctio ut possimus quam ratione illum mollitia nemo, sint dolor officia ipsam veritatis dolorem quibusdam corporis harum repellat eos aliquam a amet placeat sunt commodi fugit sequi dicta! Aspernatur amet assumenda dolor officiis laudantium recusandae praesentium quisquam?
+                            </p>
+                            <h2 id="about-portfolio">
+                                Portfolio
+                            </h2>
+                            <a id="collaborate-button" class="custom-buttons waves-effect waves-light btn deep-purple lighten-3" href="">
+                                Open
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l8"></div>
             </div>
-
-
-
         </div>
-        <div class="section three" id="section3">
-
-
-
-            <div class="intro">
-                <h1>Scroll Down</h1>
-                <p>And it will loop to the first section</p>
-                <img id="shiba" class="pictures animated" src="./assets/images/Matt Business Card Final-05.png" alt="">
+        <div class="responsive-img section three animated" id="section3">
+            <!-- CONTENT THIRD PAGE -->
+            <div class="row">
+                <div id="collaborate-sign" class="col s12 center-align">
+                    Collaborate
+                </div>
+                <div class="col s12"><br><br></div>
+                <div class="col s12 center-align">
+                    <a id="collaborate-button" class="custom-buttons waves-effect waves-light btn deep-purple lighten-3" href="">
+                        Start
+                    </a>
+                </div>
             </div>
-
-
         </div>
     </div>
 

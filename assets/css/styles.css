@@ -8,41 +8,64 @@ h1 {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 #nav-logo {
     height: 50px;
     margin: 4.5px;
 }
-
-
-.pictures {
-    height: 500px;
+div#overall-intro-container {
+    margin-bottom: 145px;
 }
+#intro-hello {
+    font-size: 60px;
+    -webkit-animation-delay: 1s;
+}
+#my-name {
+    font-size: 120px;
+    font-weight: 700;
+    color: #f37029;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-delay: 1.7s;
+}
+#my-statement {
+    font-size: 20px;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: 2.8s;
+}
+
 #section1 {
     height: 100vh;
     width: 100vw;
     background-image: url(../images/hand-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-animation-delay: .3s;
 }
-#myIntro {
-    -webkit-animation-duration: .85s;
-    -webkit-animation-delay: .9s;
+
+div#portfolio-container.row {
+    margin-bottom: 210px;
+    -webkit-animation-delay: .75s;
 }
+
 #section2 {
     height: 100vh;
     width: 100vw;
-    /* background-color: lightslategray; */
     background-image: url(../images/photo-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#myDesign {
-    -webkit-animation-duration: .85s;
-    -webkit-animation-delay: .9s;
+
+#collaborate-sign {
+    font-size: 80px;
+    font-weight: 700;
+    color: #f37029;
 }
 #section3 {
     height: 100vh;
     width: 100vw;
-    background-color: lightcoral;
+    background-image: url(../images/table-backdrop-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation-duration: 2s;
 }
