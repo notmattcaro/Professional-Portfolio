@@ -1,0 +1,175 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+h5 {
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+}
+h6 {
+    margin: 0px;
+    padding: 0px;
+    color: #b388ff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+i .material-icons {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* resetting rows */
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+#nav-logo {
+    height: 50px;
+    margin: 4.5px;
+}
+.thin-border {
+    border-style: solid;
+    border-width: .02rem;
+    border-color: #757575;
+    height: 690px;
+}
+.padd-control {
+    padding: 0px 10px 20px 10px;
+}
+.padd-bott {
+    padding-bottom: 43px;
+}
+#design {
+    padding-top: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+} 
+#code {
+    padding-top: 15px;
+    background-color: white;
+}
+#photos {
+    padding-top: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+@media screen and (max-width: 992px) {
+    #design {
+        border-radius: 8px;
+        border-bottom-left-radius: 8px;
+        background-color: white;
+    } 
+    #code {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        background-color: white;
+    }
+    #photos {
+        border-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background-color: white;
+    }
+    .carousel-slider {
+        position: relative;
+        overflow: hidden;
+    }
+}
+/* Raleway Bolded */
+.raleway-bold {
+    font-weight: 700;
+    color: #212121;
+}
+
+/* make a media query probably */
+.sec3-offset {
+    margin-top: -170px;
+}
+
+/* second section */
+#second-section {
+    background-color: #f37029;
+    padding-top: 125px;
+    padding-bottom: 275px;
+}
+#section-two-header {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: -30px;
+}
+#section-two-content {
+    color: white;
+}
+#offset-bg {
+    padding-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: .75s;
+}
+
+
+#design-images {
+    position: relative;
+    overflow: hidden;
+}
+
+#code-images {
+    position: relative;
+    overflow: hidden;
+}
+
+#photo-images {
+    position: relative;
+    overflow: hidden;
+}
+/* Section three content */
+.showing-design {
+    display: inline-block;
+}
+.showing-code {
+    display: inline-block;
+}
+.showing-photos {
+    display: inline-block;
+}
+.hidden-design {
+    display: none;
+}
+.hidden-code {
+    display: none;
+}
+.hidden-photos {
+    display: none;
+}
