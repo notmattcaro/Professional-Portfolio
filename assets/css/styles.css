@@ -18,11 +18,11 @@ div#overall-intro-container {
     margin-bottom: 145px;
 }
 #intro-hello {
-    font-size: 60px;
+    font-size: 3rem;
     -webkit-animation-delay: 1s;
 }
 #my-name {
-    font-size: 120px;
+    font-size: 87px;
     font-weight: 700;
     color: #f37029;
     -webkit-animation-duration: 1.3s;
@@ -55,9 +55,19 @@ div#portfolio-container.row {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#about-me {
+    font-size: 3rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#about-portfolio {
+    font-size: 3rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
 #collaborate-sign {
-    font-size: 80px;
+    font-size: 4.4rem;
     font-weight: 700;
     color: #f37029;
 }
@@ -68,4 +78,31 @@ div#portfolio-container.row {
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation-duration: 2s;
+}
+#collaborate-modal {
+    margin-top: 250px;
+    height: 275px;
+    border-radius: 15px;
+    width: 500px;
+}
+@media screen and (max-width: 992px) {
+    #collaborate-modal {
+        margin-top: 250px;
+        height: 275px;
+        border-radius: 15px;
+        width: 300px;
+    }
+}
+#sync-up {
+    margin-top: 12px;
+}
+#social-network-apps {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-sizes {
+    height: 100px;
 }

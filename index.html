@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Import materialize.css cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link type="text/css" rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- animate.css -->
@@ -65,17 +66,17 @@
                 <div class="col l4">
                     <div class="row">
                         <div id="section2-content-up" class="row col s12">
-                            <h2 id="about-me">
+                            <div id="about-me">
                                 About
-                            </h2>
+                            </div>
                             <p id="about-content">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quibusdam consequatur hic saepe? Distinctio ut possimus quam ratione illum mollitia nemo, sint dolor officia ipsam veritatis dolorem quibusdam corporis harum repellat eos aliquam a amet placeat sunt commodi fugit sequi dicta! Aspernatur amet assumenda dolor officiis laudantium recusandae praesentium quisquam?
                             </p>
-                            <h2 id="about-portfolio">
+                            <div id="about-portfolio">
                                 Portfolio
-                            </h2>
-                            <a id="collaborate-button" class="custom-buttons waves-effect waves-light btn deep-purple accent-1" href="./portfolio.html">
-                                Open
+                            </div>
+                            <a id="portfolio-click" href="./portfolio.html" class="custom-buttons waves-effect waves-light btn deep-purple accent-1">
+                                Explore
                             </a>
                         </div>
                     </div>
@@ -91,19 +92,36 @@
                 </div>
                 <div class="col s12"><br><br></div>
                 <div class="col s12 center-align">
-                    <a id="collaborate-button" class="custom-buttons waves-effect waves-light btn deep-purple accent-1" href="!#">
+                    <a id="collaborate-button" class="custom-buttons waves-effect waves-light btn deep-purple accent-1 modal-trigger" href="#collaborate-modal">
                         Start
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- ========== MODALS ========== -->
+    <div id="collaborate-modal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4 id="sync-up" class="center">Sync Up</h4>
+            <p class="center"></p>
+            <div id="social-network-apps">
+                <a href="https://www.instagram.com/notmattcaro/" id="instagram"><img src="./assets/images/instagram-02.png" class="icon-sizes" alt="Matt's instagram"></a>
+                <a href="https://github.com/notmattcaro" id="github"><img src="./assets/images/github-01.png" class="icon-sizes" alt="Matt's github"></a>
+                <a href="https://www.linkedin.com/in/matthew-caro-619sd/" id="linkedin"><img src="./assets/images/linkedin-03.png" class="icon-sizes" alt="Matt's linkedin"></a>
+            </div>
+        </div>
+        <!-- <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-purple accent-1 btn-flat ">Agree</a>
+        </div> -->
+    </div>
+    <!-- ========== END MODALS ========== -->
 
     <!-- End of body, entering scripts  -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- Materialize JS Framework -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <script src="./assets/js/fullpage.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
