@@ -148,6 +148,7 @@ i .material-icons {
 #code-images {
     position: relative;
     overflow: hidden;
+    margin-top: -22px;
 }
 
 #photo-images {
